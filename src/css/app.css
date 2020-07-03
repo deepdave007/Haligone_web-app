@@ -1,0 +1,145 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400&display=swap');
+    background-image: url("../images/image-1.jpg");
+    background-size: cover;
+    font-family: 'Nunito Sans',sans-serif;
+}
+
+.card-body{
+    font-family: 'Nunito Sans',sans-serif;
+    border-radius: 1rem;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 3px 3px #111111e8;
+    height:auto;
+    margin-bottom: 2rem;
+}
+
+#page-titles {
+    color: #161616;
+    text-transform: lowercase;
+}
+h1 {
+    text-transform: lowercase;
+    font-family: 'Nunito Sans',sans-serif;
+    font-size: 2.4rem;
+    font-weight: 200;
+    letter-spacing: 0rem;
+    color: rgb(0, 0, 0);
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #4d4d4d;
+}
+
+#name, #email, #password, #password2 {
+    letter-spacing: .05rem;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    border-radius: 0.5rem;
+    -webkit-transition: .4s ease-in-out;
+    border: 2px solid #000000;
+}
+
+
+#bottomlogin {
+    color: #000000;
+}
+
+.alert-warning,.close{
+    background-color: #ff00007c;
+    -webkit-transition: .3s ease-in-out;
+}
+
+#accountlink {
+    color: #000000;
+}
+
+#loginlink {
+    color: #00e7dc;
+    -webkit-transition: .25s ease-in-out;
+    transition: .25s ease-in-out;
+}
+
+#loginlink:hover {
+    color: #008a83;
+}
+
+p {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+}
+
+h6 {
+    padding: 1rem;
+}
+
+.btn {
+    margin-top: 1.25rem;
+    font-family: 'Nunito Sans';
+    text-transform: lowercase;
+    font-weight: 300;
+    font-size: 1.1rem;
+    border-radius: .5rem;
+    -webkit-transition: all .5s ease-in-out;
+    transition: 0.5 ease-in-out;
+}
+
+.btn:hover {
+    color: #00fff2;
+    border-radius: 0.75rem;
+}
+
+#btnregister {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+    border: 0.1rem solid #000000;
+    background-color: #000000;
+    border-radius: .5rem;
+    color: rgb(255, 255, 255);
+    -webkit-transition: all .5s ease-in-out;
+    transition: 0.5 ease-in-out;
+}
+
+#btnregister:hover {
+    transform: scale3d(1,1,1, 45deg);
+    border: 0.1rem solid #ffffff;
+    border-radius: 0.75rem;
+    color: #00fff2;
+}
+
+#btnlogin {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.1rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: .5rem;
+    background-color: #ffffff;
+    color: #000000;
+    -webkit-transition: all .5s ease-in-out;
+    transition: 0.5 ease-in-out;
+}
+
+#btnlogin:hover {
+    transform: scale3d(1,1,1, 45deg);
+    box-shadow:  #161616;
+    border: 0.1rem solid #000000;
+    border-radius: .75rem;
+    color: #00fff2;
+}
+
+i {
+    color: #00fff2;
+    border: 1rem black;
+}
+
+#cardModal {
+    margin-top: 3rem;
+    border-radius: 1rem;
+    background-color: rgba(44, 44, 44, 0.582);
+    box-shadow: 2px 3px 3px #111111e8;
+    height:20rem;
+}
