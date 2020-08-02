@@ -1,36 +1,26 @@
 {
   "name": "haligone",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.5.0",
-    "cra-template": "1.0.3",
-    "firebase": "^7.15.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "react-firebase": "^2.2.8",
-    "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
-  },
+  "version": "1.0.0",
+  "description": "Ecommerce Web Application made with React, Node.js, Express, MongoDB",
+  "main": "server.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node server",
+    "server": "nodemon server"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "author": "Deep Dave",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.24",
+    "request": "^2.88.2"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
   }
 }
