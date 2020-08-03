@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://deepdave123:1IYAuI01HvEBmBfa@haligone.lw9ah.mongodb.net/<Haligone>?retryWrites=true&w=majority",
+  "jwtSecret": "SecretTokenAccess"
+}
