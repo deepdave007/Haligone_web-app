@@ -1,0 +1,132 @@
+html {
+  font-size: 62.5%; /* 16px * 62.5 = 10px = 1rem */
+  box-sizing: border-box;
+}
+body {
+  font: 1.6rem Helvetica;
+  height: 100vh;
+  margin: 0;
+}
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 1fr 5rem;
+  height: 100%;
+  margin-top: 1rem;
+}
+.header {
+  grid-area: header;
+  background-color: #ffffff;
+  color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5rem;
+  border-bottom: 0.5px solid #bdbdbd;
+}
+.brand a {
+  color: #000000;
+  font-size: 3.5rem;
+  font-weight: bold;
+  font-family: 'Questrial', sans-serif;
+  text-decoration: none;
+  color: #00ffda;
+  transition: all 0.4s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+}
+
+.header-links {
+  padding-right: 3rem;
+}
+
+.header-links a {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Questrial', sans-serif;
+  font-size: 1.8rem;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-font-smoothing: antialiased;
+}
+
+.signupbutton {
+  border: 2px solid #00ffda;
+  font-weight: bold;
+  color: #ffffff !important;
+  background-color: #00ffda;
+  transition: all 0.4s ease-in-out !important;
+}
+
+.signupbutton:hover {
+  background-color: #ffffff;
+  color: #000000 !important;
+  border-radius: 1rem;
+}
+
+.header-links a:hover {
+  color: #00ffda;
+}
+.main {
+  grid-area: main;
+  font-family: 'Questrial';
+}
+.footer {
+  grid-area: footer;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  font-family: 'Questrial', sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #00ffea;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 10rem;
+}
+.products li {
+  list-style-type: none;
+  padding: 0;
+  flex: 0 1 34rem;
+  margin: 0rem;
+  height: 50rem;
+  border-bottom: 0.1rem #818181 solid;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+.product-name {
+  font-size: 1.85rem;
+  font-weight: bold;
+}
+.product-brand {
+  font-size: 1.2rem;
+  color: #808080;
+}
+.product-price {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.product-image {
+  max-width: 30rem;
+  max-height: 30rem;
+}
+.product-rating {
+  margin-bottom: 4rem;
+}
