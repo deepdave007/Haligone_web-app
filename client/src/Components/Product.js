@@ -9,6 +9,9 @@ function Product(props) {
     const product = data.products.find(product => product._id === props.match.params.id);
     
     console.log(product.name);
+
+
+    
     
     
     return (

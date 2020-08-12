@@ -7,6 +7,8 @@ import Product from "./Components/Product";
 import Slider from "./Components/Slider";
 import UserProfile from "./Components/UserProfile";
 
+import ProductsScreen from "./Components/ProductsScreen";
+
 
 function App() {
 
@@ -28,6 +30,7 @@ function App() {
             <Route path = "/profile" component = {UserProfile} />
             <Route exact path = "/"  component = {Home} />
             <Route path = "/slider" component = {Slider} />
+            <Route path = "/products" component = {ProductsScreen} />
             
           </div>
         </main>

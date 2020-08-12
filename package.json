@@ -7,7 +7,7 @@
     "start": "node server",
     "server": "nodemon server",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"npm run server\" \"npm run client\""    
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Deep Dave",
   "license": "MIT",
@@ -18,13 +18,13 @@
     "express-validator": "^6.6.1",
     "gravatar": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.9.27",
+    "mongoose": "^5.9.28",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "request": "^2.88.2"
   },
   "devDependencies": {
-    "concurrently": "^5.2.0",
+    "concurrently": "^5.3.0",
     "nodemon": "^2.0.4"
   }
 }
