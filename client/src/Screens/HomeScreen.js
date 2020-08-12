@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Link } from "react-router-dom";
 import data from "../Data";
-import Card from "./Card";
+import Card from "../Components/Card";
 import {Grid} from "@material-ui/core";
 import {makeStyles} from "@material-ui/core/styles";
 
